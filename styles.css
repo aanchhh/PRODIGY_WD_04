@@ -1,0 +1,109 @@
+html {
+    /*background-color: darkgrey;*/
+        background: linear-gradient(to left, darkgrey, skyblue);
+}
+body {
+    margin: 0;
+}
+.heading {
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    top: 0%;
+    color:whitesmoke;
+    z-index: -1;
+    text-align: left;
+    text-shadow: 5px 9px 12px rgba(224, 232, 224, 0.881);
+}
+.navbar {
+    width: 100%;
+    top: 0%;
+    height:100px;
+    position: fixed;
+    background-color: black;
+    left:0%;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+#image {
+    width: 30px;
+    height: 30px;
+}
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+#dropdown-btn {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.dropdwn-cont {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 70%;
+    left: 60%;
+    transform: translateX(-97%);
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+.dropdwn-cont a {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdwn-cont a:hover {
+    background-color: #e88c8c;
+}
+.dropdown:hover .dropdwn-cont {
+    display: block;
+}
+.container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add padding as needed */
+    padding-top: 10%;
+    align-items: center;
+    padding-left: 20%;
+}
+.para {
+    font-size: 25px;
+    width: 500px;
+    height: 150px;
+    text-align: justify;
+    
+}
+#aanchal {
+   
+    width:300px;
+    height:auto;
+    margin-right: 20px;
+}
+hr {
+    text-decoration-thickness: 1000px;
+}
+.ed {
+    font-size: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.list1 {
+    font-size: 20px;
+    
+}
+#image2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+div {
+    padding-left: 10px;
+}
